@@ -1,0 +1,22 @@
+{
+    "name": "ddproxy/csv-tools",
+    "description": "Extract large CSV's data into smaller subset of that data",
+    "type": "project",
+    "require": {
+        "goodby/csv": "^1.3",
+        "monolog/monolog": "^1.22",
+        "symfony/console": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Jon West",
+            "email": "jon.c.west@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
